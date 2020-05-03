@@ -1,1 +1,1 @@
-# -处理藏文信息
+# tibetan information processing
