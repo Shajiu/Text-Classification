@@ -1,1 +1,1 @@
-# tibetan information processing
+# Tibetan information processing
