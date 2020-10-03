@@ -1,9 +1,23 @@
-# AuxiliaryTools
-本脚本中包含一些NLP任务中基本的操作:分句(英文)、分词(中、英)、识别语种(所有).
-## 一、Participle_word_tool
-#### 1.[Participle_word_tool.py:](https://github.com/Shajiu/AuxiliaryTools/blob/master/Participle_word_tool/divide_paper.py) 英文分词工具
-#### 2.[divide_sentence.py:](https://github.com/Shajiu/AuxiliaryTools/blob/master/Participle_word_tool/divide_sentence.py)英文分句工具
-#### 3.[jieba_fenCi.py:](https://github.com/Shajiu/AuxiliaryTools/blob/master/Participle_word_tool/jieba_fenCi.py)中文分词工具
-#### 4.[participle.py](https://github.com/Shajiu/AuxiliaryTools/blob/master/Participle_word_tool/participle.py)英文分词工具
-#### 5.[sentence_token.py:](https://github.com/Shajiu/AuxiliaryTools/blob/master/Participle_word_tool/sentence_token.py)英文分词、英文分句、中文分词、识别语种
+# 基于机器学习的文本分类！
+文本分类一般有两种处理思路：基于机器学习的方法和基于深度学习的方法。
+本文主要基于机器学习的方法，介绍了特征提取+分类模型在文本分类中的应用。具体目录如下
+## Contents
+### 1.数据以及背景
+### 2.文本表示
+#### 2.1 One-Hot
+#### 2.2 Bags of Words
+#### 2.3 N-gram
+#### 2.4 TF-IDF
+### 3 基于机器学习的文本分类
+#### 3.1 导入相关的包
+#### 3.2 读取数据
+#### 3.3 文本分类对比
+### 4 研究参数对模型的影响
+#### 4.1 正则化参数对模型的影响
+#### 4.2 max_features对模型的影响
+#### 4.3 ngram_range对模型的影响
+### 5 考虑其他分类模型
+#### 5.1 LogisticRegression
+#### 5.2 SGDClassifier
+#### 5.3 SVM
  
